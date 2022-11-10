@@ -19,28 +19,28 @@ export default function PlaygoundPage() {
         </div>
 
         <section className='px-6 py-12'>
-          <div className='grid w-full h-full grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-col-6 gap-12'>
-            <Link href="/playground/neumorphism" className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+          <div className='grid w-full h-full grid-cols-2  md:grid-cols-3 lg:grid-col-4 xl:grid-col-6 gap-12'>
+            <Link href="/playground/neumorphism" className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>neumorphism</h4>
               <p className='dark:text-white opacity-50'>a design style</p>
             </Link>
-            <div className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>
             </div>
-            <div className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>
             </div>            
-            <div className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>
             </div>            
-            <div className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>
             </div>            
-            <div className={`w-full h-full px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>
             </div>
