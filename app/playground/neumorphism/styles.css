@@ -1,0 +1,276 @@
+:root {
+    --white: #ffffff;
+    --grey: #c0c0c0;
+    --beige: #fdf5e6;
+    --orange: #ffe2d6;
+    --red: #561029;
+    --purple: #1a0a53;
+    --blue: #00364a;
+    --black: #232323;
+
+    --theme-color: var(--white);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+background: #ffffff;
+}
+
+
+/* display container */
+
+.displayed-container {
+    border-radius: 23px;
+}
+
+.displayed-container-white {
+    background: linear-gradient(315deg, #ffffff, #e6e6e6);
+    box-shadow:  -29px -29px 59px #9e9e9e,
+             29px 29px 59px #ffffff;
+}
+
+.displayed-container-pressed-white {
+    background: linear-gradient(315deg, #e6e6e6, #ffffff);
+    box-shadow:  -29px -29px 59px #9e9e9e,
+             29px 29px 59px #ffffff;
+}
+
+.displayed-container-grey {
+    background: linear-gradient(315deg, #cdcdcd, #adadad);
+    box-shadow:  -29px -29px 59px #777777,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-pressed-grey {
+    background: linear-gradient(315deg, #adadad, #cdcdcd);
+    box-shadow:  -29px -29px 59px #777777,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-beige {
+    background: linear-gradient(315deg, #fffff6, #e4ddcf);
+    box-shadow:  -29px -29px 59px #9d988f,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-pressed-beige {
+    background: linear-gradient(315deg, #e4ddcf, #fffff6);
+    box-shadow:  -29px -29px 59px #9d988f,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-orange {
+    background: linear-gradient(315deg, #fff2e5, #e6cbc1);
+    box-shadow:  -29px -29px 59px #9e8c85,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-pressed-orange {
+    background: linear-gradient(315deg, #e6cbc1, #fff2e5);
+    box-shadow:  -29px -29px 59px #9e8c85,
+                 29px 29px 59px #ffffff;
+}
+
+.displayed-container-red {
+    background: linear-gradient(315deg, #5c112c, #4d0e25);
+    box-shadow:  -29px -29px 59px #350a19,
+                 29px 29px 59px #771639;
+}
+
+.displayed-container-pressed-red {
+    background: linear-gradient(315deg, #4d0e25, #5c112c);
+    box-shadow:  -29px -29px 59px #350a19,
+                 29px 29px 59px #771639;
+}
+
+.displayed-container-purple {
+    background: linear-gradient(315deg, #1c0b59, #17094b);
+    box-shadow:  -29px -29px 59px #100633,
+                 29px 29px 59px #240e73;
+}
+
+.displayed-container-pressed-purple {
+    background: linear-gradient(315deg, #17094b, #1c0b59);
+    box-shadow:  -29px -29px 59px #100633,
+                 29px 29px 59px #240e73;
+}
+
+.displayed-container-blue {
+    background: linear-gradient(315deg, #003a4f, #003143);
+    box-shadow:  -29px -29px 59px #00212e,
+                 29px 29px 59px #004b66;
+}
+
+.displayed-container-pressed-blue {
+    background: linear-gradient(315deg, #003143, #003a4f);
+    box-shadow:  -29px -29px 59px #00212e,
+                 29px 29px 59px #004b66;
+}
+
+.displayed-container-black {
+    background: linear-gradient(315deg, #252525, #202020);
+    box-shadow:  -29px -29px 59px #161616,
+                 29px 29px 59px #303030;
+}
+
+.displayed-container-pressed-black {
+    background: linear-gradient(315deg, #202020, #252525);
+    box-shadow:  -29px -29px 59px #161616,
+                 29px 29px 59px #303030;
+}
+
+
+
+/* Backgrounds */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-black {
+    background-color: var(--black);
+}
+
+
+/* Select Buttons */
+
+.select-button-white {
+    border-radius: 68px;
+    background: #ffffff;
+    box-shadow:  -29px -29px 59px #9e9e9e,
+                 29px 29px 59px #ffffff;
+}
+
+.select-button-pressed-white {
+    border-radius: 68px;
+    background: #ffffff;
+    box-shadow: inset -29px -29px 59px #9e9e9e,
+                inset 29px 29px 59px #ffffff;
+}
+
+.select-button-grey {
+    border-radius: 68px;
+    background: #c0c0c0;
+    box-shadow:  -29px -29px 59px #777777,
+                29px 29px 59px #ffffff;
+}
+
+.select-button-pressed-grey {
+    border-radius: 68px;
+    background: #c0c0c0;
+    box-shadow: inset -29px -29px 59px #777777,
+                inset 29px 29px 59px #ffffff;
+}
+
+.select-button-red {
+    border-radius: 68px;
+    background: #561029;
+    box-shadow:  -29px -29px 59px #350a19,
+                 29px 29px 59px #771639;
+}
+
+.select-button-pressed-red {
+    border-radius: 68px;
+    background: #561029;
+    box-shadow: inset -29px -29px 59px #350a19,
+                inset 29px 29px 59px #771639;
+}
+
+.select-button-black {
+    border-radius: 68px;
+    background: #232323;
+    box-shadow:  -29px -29px 59px #161616,
+                 29px 29px 59px #303030;
+}
+
+.select-button-pressed-black {
+    border-radius: 68px;
+    background: #232323;
+    box-shadow: inset -29px -29px 59px #161616,
+                inset 29px 29px 59px #303030;
+}
+
+.select-button-blue {
+    border-radius: 68px;
+    background: #00364a;
+    box-shadow:  -29px -29px 59px #00212e,
+                 29px 29px 59px #004b66;
+}
+
+.select-button-pressed-blue {
+    border-radius: 68px;
+    background: #00364a;
+    box-shadow: inset -29px -29px 59px #00212e,
+                inset 29px 29px 59px #004b66;
+}
+
+.select-button-orange {
+    border-radius: 68px;
+    background: #ffe2d6;
+    box-shadow:  -29px -29px 59px #9e8c85,
+                 29px 29px 59px #ffffff;
+}
+
+.select-button-pressed-orange {
+    border-radius: 68px;
+    background: #ffe2d6;
+    box-shadow: inset -29px -29px 59px #9e8c85,
+                inset 29px 29px 59px #ffffff;
+}
+
+.select-button-beige {
+    border-radius: 68px;
+    background: #fdf5e6;
+    box-shadow:  -29px -29px 59px #9d988f,
+                 29px 29px 59px #ffffff;
+}
+
+.select-button-pressed-beige {
+    border-radius: 68px;
+    background: #fdf5e6;
+    box-shadow: inset -29px -29px 59px #9d988f,
+                inset 29px 29px 59px #ffffff;
+}
+
+.select-button-purple {
+    border-radius: 68px;
+    background: #1a0a53;
+    box-shadow:  -29px -29px 59px #100633,
+                 29px 29px 59px #240e73;
+}
+
+.select-button-pressed-purple {
+    border-radius: 68px;
+    background: #1a0a53;
+    box-shadow: inset -29px -29px 59px #100633,
+                inset 29px 29px 59px #240e73;
+}
+
+

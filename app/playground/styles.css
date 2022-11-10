@@ -1,0 +1,45 @@
+:root {
+    --white: #ffffff;
+    --black: #232323;
+
+    --theme-color: var(--white);
+}
+
+
+@media (prefers-color-scheme: light) {
+    main {
+      background: var(--white);
+    }
+
+    .displayed-container {
+        background: linear-gradient(145deg, #ffffff, #e6e6e6);
+        box-shadow:  10px 10px 20px #8a8a8a,
+                     -10px -10px 20px #ffffff;
+    }
+
+    .displayed-container:hover {
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow:  10px 10px 20px #8a8a8a,
+                     -10px -10px 20px #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    main {
+      background: var(--black);
+    }
+
+    .displayed-container {
+        background: linear-gradient(145deg, #252525, #202020);
+        box-shadow:  10px 10px 20px #131313,
+                     -10px -10px 20px #333333;
+    }
+
+    .displayed-container:hover {
+        background: linear-gradient(145deg, #202020, #252525);
+        box-shadow:  10px 10px 20px #131313,
+        -10px -10px 20px #333333;
+    }
+}
+
+
