@@ -14,7 +14,7 @@ export default function PlaygoundPage() {
     return (
       <main>
         <div className='py-12 flex flex-col gap-1'>
-          <h1 className="text-5xl md:text-6xl w-full text-right px-3 dark:text-white opacity-60 dark:opacity-70">Samwel{"'"}s Playground</h1>
+          <h1 className="text-7xl md:text-6xl w-full text-right px-3 dark:text-white opacity-60 dark:opacity-70">Samwel{"'"}s Playground</h1>
           <h1 className="text-base md:text-xl font-thin w-full text-right px-3 dark:text-white opacity-70">A collage of loose ends</h1>
         </div>
 
