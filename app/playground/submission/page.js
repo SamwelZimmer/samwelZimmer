@@ -184,9 +184,13 @@ export default function PlaygoundPage() {
                     </>}   
             </main>
 
-            <p className='absolute bottom-[5%] w-full text-center text-white opacity-30'>
-                this page has been designed specifically for mouse input
-            </p>
+            <div className={`text-7xl md:text-base absolute bottom-[70%] md:bottom-[5%] w-full text-center text-white opacity-30 flex flex-row items-center justify-center`}>
+                <p className='w-2/3 md:w-full'>this page has been designed specifically for mouse input</p>
+            </div>
+
+            <div className={`text-7xl md:hidden absolute bottom-[20%] w-full text-center text-white opacity-30 flex flex-row items-center justify-center`}>
+                <p className='w-2/3 md:w-full'>It looks shit on mobile, my bad</p>
+            </div>
 
             {/* Shapes */}
             <motion.div initial={{ rotate: 0, translateY: 1000, translateX: -1000 }} animate={{ rotate: 360, translateY: -1000, translateX: 1000 }} transition={{ duration: 7, repeat: Infinity }} className='absolute top-[30%] left-[12%] w-12 z-0'><GenerateSquares /></motion.div>
@@ -211,7 +215,7 @@ function GenerateSquares() {
 
 function BackButton() {
     return (
-        <Link href="/playground" className="glass-btn absolute top-12 left-12 z-50 rounded-full p-3 text-white opacity-50">
+        <Link href="/playground" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 left-12 z-50 rounded-full p-3 text-white opacity-50">
             <BsFillCaretLeftFill />
         </Link>
     )
@@ -219,7 +223,7 @@ function BackButton() {
 
 function HomeButton() {
     return (
-        <Link href="/" className="glass-btn absolute top-12 right-12 z-50 rounded-full p-3 text-white opacity-50">
+        <Link href="/" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 right-12 z-50 rounded-full p-3 text-white opacity-50">
             <AiFillHome />
         </Link>
     )
