@@ -13,9 +13,9 @@ function randomBoxShape() {
 export default function PlaygoundPage() {
     return (
       <main>
-        <div className='py-12 flex flex-col gap-1'>
+        <div className='py-32 flex flex-col gap-1'>
           <h1 className="text-7xl md:text-6xl w-full text-right px-3 dark:text-white opacity-60 dark:opacity-70">Samwel{"'"}s Playground</h1>
-          <h1 className="text-base md:text-xl font-thin w-full text-right px-3 dark:text-white opacity-70">A collage of loose ends</h1>
+          <h1 className="text-4xl md:text-xl font-thin w-full text-right px-3 dark:text-white opacity-70">A collage of loose ends</h1>
         </div>
 
         <section className='px-6 py-12'>
@@ -24,10 +24,10 @@ export default function PlaygoundPage() {
               <h4 className='dark:text-white opacity-90'>neumorphism</h4>
               <p className='dark:text-white opacity-50'>a design style</p>
             </Link>
-            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
-              <h4 className='dark:text-white opacity-90'>project 2</h4>
-              <p className='dark:text-white opacity-50'>project 2 sub</p>
-            </div>
+            <Link href="/playground/submission" className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
+              <h4 className='dark:text-white opacity-90'>slippery submisson</h4>
+              <p className='dark:text-white opacity-50'>a glassmorphic form with a twist</p>
+            </Link>
             <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl displayed-container ${randomBoxShape()}`}>
               <h4 className='dark:text-white opacity-90'>project 2</h4>
               <p className='dark:text-white opacity-50'>project 2 sub</p>

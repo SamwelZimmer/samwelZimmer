@@ -1,0 +1,88 @@
+:root {
+    --bg-gradient: linear-gradient(
+        145deg, 
+        rgba(2,0,36,1) 0%, 
+        rgba(9,9,121,1) 5%, 
+        rgba(0,212,255,1) 40%, 
+        rgba(0,212,255,1) 70%, 
+        rgba(126,0,255,1) 100%
+    );
+
+    --glass-gradient: linear-gradient(
+        90deg,
+        rgba(255,255,255,0.1) 0%, 
+        rgba(255,255,255,0.3) 100%
+    );
+
+    --glass-focus: linear-gradient(
+        90deg,
+        rgba(255,255,255,0.3) 0%,
+        rgba(255,255,255,0.1) 100%
+    );}
+
+body {
+    overflow: hidden;
+    background-image: var(--bg-gradient);
+    background-size: 300%;
+    animation: bg-animation 5s infinite alternate;
+}
+
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.shifting-background {
+    background-image: var(--bg-gradient);
+    background-size: 300%;
+    animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.main-container {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+
+.glass {
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+
+.glass-input {
+    background: var(--glass-gradient);
+    box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.glass-input:focus {
+    background: var(--glass-focus);
+    box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.glass-btn {
+    background-image: var(--glass-gradient);
+    box-shadow: 0 16px 64px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.glass-btn:hover {
+    background: var(--glass-focus);
+    box-shadow: 0 16px 64px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.glass-pointer {
+    background: rgba( 0, 0, 0, 0.35 );
+    box-shadow: 0 32px 128px 0 rgba( 31, 38, 135, 0.5 );
+}
+
+
+
