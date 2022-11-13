@@ -1,0 +1,27 @@
+:root {
+    --bg-gradient: linear-gradient(
+        145deg, 
+        #7F8E82 0%, 
+        #675A36 5%, 
+        #2B2B28 50%, 
+        #1F3515 85%, 
+        #2B2B28 100%
+    );
+}
+
+.wood {
+    background-color: #965f00;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+.shifting-background {
+    background-image: var(--bg-gradient);
+    background-size: 300%;
+    animation: bg-animation 30s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+

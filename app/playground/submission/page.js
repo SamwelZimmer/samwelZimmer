@@ -188,7 +188,7 @@ export default function PlaygoundPage() {
                 <p className='w-2/3 md:w-full'>this page has been designed specifically for mouse input</p>
             </div>
 
-            <div className={`text-7xl md:hidden absolute bottom-[20%] w-full text-center text-white opacity-30 flex flex-row items-center justify-center`}>
+            <div className={`text-7xl md:hidden absolute bottom-[10%] w-full text-center text-white opacity-30 flex flex-row items-center justify-center`}>
                 <p className='w-2/3 md:w-full'>It looks shit on mobile, my bad</p>
             </div>
 
