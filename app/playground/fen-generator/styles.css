@@ -1,0 +1,50 @@
+:root {
+    --green-gradient: radial-gradient(
+        #136207 0%, 
+        #004900 5%, 
+        #003200 30%, 
+        #001D00 50%, 
+        #000000 60%
+    );
+
+    --gold-gradient: linear-gradient(
+        90deg,
+        #462523 0,
+        #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 120%
+    );
+}
+
+.green-bg {
+    background-image: var(--green-gradient);
+    background-size: 150%;
+    animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+    30% {background-position: left;}
+    70% {background-position: right;}
+}
+
+.gold-text {
+    background-image: var(--gold-gradient);
+    color: transparent;
+    background-clip: inherit;
+    -webkit-background-clip: text;
+}
+
+.marble {
+    background-color: rgb(0,0,0);
+    background-image: url("http://www.zingerbugimages.com/backgrounds/white_marble_background_seamless.jpg");
+}
+
+.dark-marble {
+    background-color: rgb(0,0,0);
+    background-image: url("http://www.zingerbugimages.com/backgrounds/black_abstract_stone_pattern_tileable.jpg");
+}
+
+
