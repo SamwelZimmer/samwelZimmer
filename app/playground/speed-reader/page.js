@@ -2,6 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import { GrHome } from "react-icons/gr";
+import { BiArrowBack } from "react-icons/bi";
+import Link from 'next/link';
 
 import './styles.css';
 
@@ -65,7 +68,7 @@ export default function SpeedReader() {
                 <label htmlFor="dropzone-file" className="flex flex-col items-center h-full justify-center p-2.5 w-full text-xl md:text-sm text-gray-200 bg-slate-700 placeholder:opacity-60 focus:outline focus:outline-slate-400 border border-slate-500 rounded-lg cursor-pointer">
                     <div className="flex flex-col items-center justify-center pt-5 pb-6 text-xl">
                         <svg aria-hidden="true" className="w-10 h-10 mb-3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-                        <p className="mb-2 md:text-sm text-gray-300"><span className="font-semibold">Click to upload</span> or drag and drop</p>
+                        <p className="mb-2 md:text-sm text-gray-300"><span className="font-semibold">Click to upload</span></p>
                         <p className="md:text-xs text-gray-400">Only .txt files</p>
                         <p className="md:text-xs text-gray-500 opacity-70">Could I do other file types?</p>
                         <p className="md:text-xs text-gray-500 opacity-70">Maybe.</p>
@@ -81,6 +84,8 @@ export default function SpeedReader() {
     return (
         <>
             <main className='bg-slate-900 text-slate-400 h-screen flex flex-col justify-center items-center'>
+                <BackButton />
+                <HomeButton />
 
                 <div className='text-[8rem] p-20'>{curArr[count] !== undefined ? curArr[count] : <span className='text-slate-700'>SpeedReader</span>}</div>
 
@@ -111,4 +116,21 @@ export default function SpeedReader() {
     );
 }
 
+const HomeButton = () => (
+    <Link href="/">
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='border border-slate-600 text-slate-400 fixed md:absolute right-[15%] md:right-[10%] top-[90%] md:top-[10%] shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
+            <GrHome />
+        </motion.button>
+    </Link>
 
+    
+);
+
+const BackButton = () => (
+    <Link href="/playground">
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='marble border border-slate-600 text-slate-400 fixed md:absolute left-[15%] md:left-[10%] top-[90%] md:top-[10%] shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
+            <BiArrowBack />
+        </motion.button>
+    </Link>
+   
+);
