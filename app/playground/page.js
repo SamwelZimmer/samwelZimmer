@@ -40,10 +40,10 @@ export default function PlaygoundPage() {
               <h4 className='dark:text-white opacity-90'>speed read</h4>
               <p className='dark:text-white text-4xl md:text-xl opacity-50'>increase document reading speed</p>
             </Link>            
-            <div className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl display-container ${randomBoxShape()}`}>
-              <h4 className='dark:text-white opacity-90'>project 2</h4>
-              <p className='dark:text-white text-4xl md:text-xl opacity-50'>project 2 sub</p>
-            </div>
+            <Link href="/playground/test-dao" className={`w-full h-full text-5xl md:text-2xl px-2 py-8 flex flex-col rounded-xl display-container ${randomBoxShape()}`}>
+              <h4 className='dark:text-white opacity-90'>Samwel DAO</h4>
+              <p className='dark:text-white text-4xl md:text-xl opacity-50'>my intro into blockchain development</p>
+            </Link>
           </div>
         </section>
       </main>

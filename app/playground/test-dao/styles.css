@@ -1,0 +1,11 @@
+:root {
+    --light: #FFE6A7;
+    --sand: #BB9457;
+    --light-brown: #99582A;
+    --dark-brown: #432818;
+    --red: #6F1D1B;
+}
+
+.bg-color {
+    background-color: #FFE6A7;
+}
