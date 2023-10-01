@@ -5,10 +5,14 @@ export default function HomePage() {
       <>
         <main className="flex flex-col gap-12">
           <div>
-            <h1 className="text-6xl text-slate-300">Samwel Zimmer</h1>
-            <p className="text-2xl text-slate-500">Home Page</p>
+            <h1 className="text-6xl text-slate-700">Samwel Zimmer</h1>
           </div>
-          <Link href={"https://masters.samwelzimmer.com/"} className="hover:opacity-50" >To Masters Project</Link>
+          <Link href={"https://masters.samwelzimmer.com/"} className="hover:opacity-50 underline">Master's Project</Link>
+          <Link href={"https://projects.samwelzimmer.com/"} className="hover:opacity-50 underline">Check out all my other projects</Link>
+
+          <div className="flex flex-col opacity-40">
+            As you can probably tell, this site is just temporary and another, hopefully better, one is slowly being constructed.
+          </div>
         </main>
       </>
 
