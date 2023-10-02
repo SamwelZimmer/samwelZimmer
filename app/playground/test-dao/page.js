@@ -63,7 +63,7 @@ export default function TestDAO() {
 }
 
 const HomeButton = () => (
-    <Link href="/" className=''>
+    <Link href="https://www.samwelzimmer.com" className=''>
         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='border border-[#432818] text-[#6F1D1B] fixed shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
             <BiHomeAlt />
         </motion.button>
@@ -71,7 +71,7 @@ const HomeButton = () => (
 );
 
 const BackButton = () => (
-    <Link href="/playground" className=''>
+    <Link href="https://www.samwelzimmer.com/playground" className=''>
         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='marble border border-[#432818] text-[#6F1D1B] shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
             <BiArrowBack />
         </motion.button>
