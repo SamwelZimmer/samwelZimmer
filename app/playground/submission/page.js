@@ -215,7 +215,7 @@ function GenerateSquares() {
 
 function BackButton() {
     return (
-        <Link href="/playground" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 left-12 z-50 rounded-full p-3 text-white opacity-50">
+        <Link href="https://www.samwelzimmer.com/playground" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 left-12 z-50 rounded-full p-3 text-white opacity-50">
             <BsFillCaretLeftFill />
         </Link>
     )
@@ -223,7 +223,7 @@ function BackButton() {
 
 function HomeButton() {
     return (
-        <Link href="/" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 right-12 z-50 rounded-full p-3 text-white opacity-50">
+        <Link href="https://www.samwelzimmer.com" className="glass-btn absolute w-[100px] text-5xl md:text-base flex items-center justify-center aspect-square md:w-max top-12 right-12 z-50 rounded-full p-3 text-white opacity-50">
             <AiFillHome />
         </Link>
     )

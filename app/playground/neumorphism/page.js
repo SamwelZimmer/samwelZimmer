@@ -36,7 +36,7 @@ export default function Neumorphism() {
             setBackPressed(!backPress);
         }
         return (
-            <Link className='absolute top-[10%] left-[10%]' href="/playground">
+            <Link className='absolute top-[10%] left-[10%]' href="https://www.samwelzimmer.com/playground">
                 <div className="w-full grid items-center justify-center">
                     <button onClick={() => backPress()} className={`displayed-container${backPressed ? "-pressed" : ""}-${selectedColor} w-[70px] md:w-[60px] rounded-xl aspect-square flex justify-center items-center text-4xl md:text-base`}>
                         <IoChevronBackOutline style={{ opacity: "0.5"}} />
@@ -52,7 +52,7 @@ export default function Neumorphism() {
             setHomePressed(!homePressed);
         }
         return (
-            <Link className='absolute top-[10%] right-[10%]' href="/">
+            <Link className='absolute top-[10%] right-[10%]' href="https://www.samwelzimmer.com">
                 <div className="w-full grid items-center justify-center">
                     <button onClick={() => homePress()} className={`displayed-container${homePressed ? "-pressed" : ""}-${selectedColor} w-[70px] md:w-[60px] rounded-xl aspect-square flex justify-center items-center text-4xl md:text-base`}>
                         <GrHomeOption style={{ opacity: "0.5"}} />

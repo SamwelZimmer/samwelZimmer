@@ -216,7 +216,7 @@ const Back = () => {
 }
 
 const HomeButton = () => (
-    <Link href="/">
+    <Link href="https://www.samwelzimmer.com">
         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='wood absolute right-[15%] md:right-[10%] top-[90%] md:top-[10%] shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
             <GrHome />
         </motion.button>
@@ -226,7 +226,7 @@ const HomeButton = () => (
 )
 
 const BackButton = () => (
-    <Link href="/playground">
+    <Link href="https://www.samwelzimmer.com/playground">
         <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='wood absolute left-[15%] md:left-[10%] top-[90%] md:top-[10%] shadow-2xl aspect-square p-3 rounded-md text-5xl md:text-xl font-serif'>
             <BiArrowBack />
         </motion.button>
